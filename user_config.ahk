@@ -21,6 +21,9 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
+; windowsDllVersion = "w10"
+windowsDllVersion = "w11"
+
 CapsLock & 1::switchDesktopByNumber(1)
 CapsLock & 2::switchDesktopByNumber(2)
 CapsLock & 3::switchDesktopByNumber(3)
